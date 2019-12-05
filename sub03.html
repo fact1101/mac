@@ -51,11 +51,36 @@
 
     <div class="wrap_makeup">
         <div class="wrap_left">
-            <ul>
-                <li class="on">아이</li>
-                <li>립</li>
-                <li>페이스</li>
-                <li>립</li>
+            <ul class="sidebar_menu">
+                <li class="eye">
+                    <a href="#">아이</a>
+                    <ul class="sidebar_submenu">
+                        <li class="on">
+                            <a href="#">섀도우</a>
+                        </li>
+                        <li>
+                            <a href="#">마스카라</a>
+                        </li>
+                        <li>
+                            <a href="#">브로우</a>
+                        </li>
+                        <li>
+                            <a href="#">프라이머</a>
+                        </li>
+                        <li>
+                            <a href="#">아이 키트 및 팔레트</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">립</a>
+                </li>
+                <li>
+                    <a href="#">페이스</a>
+                </li>
+                <li>
+                    <a href="#">립</a>
+                </li>
             </ul>
         </div>
     
@@ -286,6 +311,34 @@
     </div>
 </div><!-- footer end -->
 
+
+
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            
+            $(".eye").off("click").on("click", function() {
+                if ($(".eye").hasClass("active")) { 
+                    $(".eye").removeClass("active");
+                }
+                else {
+                    $(".eye").addClass("active");
+                }
+            });
+
+            $('.eye').click(function(){ 
+                var state = $('.sidebar_submenu').css('display'); 
+                if(state == 'none'){ 
+                    $('.sidebar_submenu').slideDown(1000); 
+                }else{ 
+                    $('.sidebar_submenu').slideUp(500); 	
+                }
+            });
+
+
+        });
+    </script>
 
 </body>
 </html>

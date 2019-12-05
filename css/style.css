@@ -35,9 +35,15 @@
 /* sub03 */
 .wrap_makeup {overflow: hidden;}
 .wrap_left {width: 200px; float: left; border-top: 2px solid #737373; border-bottom: 1px solid #737373;}
-.wrap_left ul li {height: 45px; line-height: 45px; padding-left: 10px;}
-.wrap_left ul li.on {font-weight: bold;}
+.wrap_left .sidebar_menu li > a {display: block; height: 45px; line-height: 45px; padding-left: 10px;}
+.wrap_left .sidebar_menu > li.active > a {font-weight: bold;}
 
+.wrap_left .sidebar_menu li .sidebar_submenu {display: none;}
+.wrap_left .sidebar_menu li .sidebar_submenu li a {display: block; height: 30px; line-height: 30px; padding-left: 20px; font-size: 12px;}
+.wrap_left .sidebar_menu li .sidebar_submenu .on {background: #000;}
+.wrap_left .sidebar_menu li .sidebar_submenu .on a {color: #e50808;}
+.wrap_left .sidebar_menu li .sidebar_submenu li:hover {background: #000;}
+.wrap_left .sidebar_menu li .sidebar_submenu li a:hover {color: #e50808;}
 
 
 .wrap_right {float: right;}
