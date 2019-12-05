@@ -8,33 +8,98 @@
 .sub_container .location{text-align:right; font-size:0; padding-bottom:11px;}
 .sub_container .location li{display:inline-block; font-size:12px; background:url(../images/common/sub_next.jpg) no-repeat left top 1px; padding-left:12px; margin-left:8px;}
 .sub_container .location li.first {background: none;}
-.sub_container .sub_header{background:url(../images/sub01/sub_header.jpg) no-repeat left top; height:97px; margin-bottom:47px;}
+.sub_container .sub_header{height:97px; margin-bottom:47px;}
 
 
 
 
 
-
+/* sub01, sub02 */
 .wrap .section {overflow: hidden; border-top: 2px solid #737373;}
 .wrap .section div {float: left; width: 239px; border-right: 1px solid #cdcdcd;}
 .wrap .section .content {position: relative; height: 372px;}
-.wrap .section .content .img {margin-top: 25px; text-align: center;}
-.wrap .section .content .text {margin-top: 15px; text-align: center;}
+.wrap .section .content .img {margin-top: 25px; text-align: center; cursor: pointer;}
+.wrap .section .content .text {text-align: center;}
+.wrap .section .content .text h3 {font-family: WalbaumLTRoman; font-style: italic; font-size: 13px; font-weight: bold; color: #434343; margin-bottom: 10px;}
+.wrap .section .content .text img {margin-bottom: 10px;}
 .wrap .section .content .text h4 {font-size: 15px; font-weight: 700;}
 .wrap .section .content .text p {font-size: 12px; margin-top: 8px; margin-bottom: 15px;}
 .wrap .section .content .text h5 {background-color: #000; color: #fff; display: inline; font-size: 15px; padding: 5px 15px; cursor: pointer;}
 .wrap .section .content .text h5:hover {background: #fff; color: #474747; border: 2px solid;}
 .wrap .section .content .more {position: absolute; right: 0; background-color: #000; width: 30px; cursor: pointer;}
-.wrap .section.borderd {border-bottom: 2px solid #737373;}
+.wrap .last {border-bottom: 2px solid #737373;}
+/* sub01, sub02*/
+
+
+
+/* sub03 */
+.wrap_makeup {overflow: hidden;}
+.wrap_left {width: 200px; float: left; border-top: 2px solid #737373; border-bottom: 1px solid #737373;}
+.wrap_left ul li {height: 45px; line-height: 45px; padding-left: 10px;}
+.wrap_left ul li.on {font-weight: bold;}
+
+
+
+.wrap_right {float: right;}
+.wrap_right .section {overflow: hidden; border-top: 1px solid #737373;}
+.wrap_right .section .content {position: relative; height: 393px; width: 239px; border-right: 1px solid #737373;}
+.wrap_right .section .first {border-left: 1px solid #737373;} 
+.wrap_right .section div {float: left; width: 100%;}
+
+.wrap_right .section .content .img {margin-top: 25px; text-align: center; cursor: pointer;}
+.wrap_right .section .content .text {text-align: center; background-color: #e0e0e0; padding-bottom: 25px; padding-top: 15px;}
+.wrap_right .section .content .text h3 {font-family: WalbaumLTRoman; font-style: italic; font-size: 13px; font-weight: bold; color: #434343; margin-bottom: 10px;}
+.wrap_right .section .content .text img {margin-bottom: 10px;}
+.wrap_right .section .content .text h4 {font-size: 15px; font-weight: 700;}
+.wrap_right .section .content .text p {font-size: 12px; margin-top: 8px; margin-bottom: 15px;}
+.wrap_right .section .content .text h5 {background-color: #000; color: #fff; display: inline; font-size: 15px; padding: 5px 15px; cursor: pointer;}
+.wrap_right .section .content .text h5:hover {background: #fff; color: #474747; border: 2px solid;}
+.wrap_right .section .content .more {position: absolute; right: 0; background-color: #000; width: 30px; cursor: pointer;}
+
+.wrap_right .section .content_2x {position: relative; height: 393px; width: 479px; border-right: 1px solid #737373;}
+.wrap_right .section .content_2x .img {margin-top: 25px; text-align: center; cursor: pointer;}
+.wrap_right .section .content_2x .text {text-align: center; background-color: #e0e0e0; padding-bottom: 25px; padding-top: 15px;}
+.wrap_right .section .content_2x .text h3 {font-family: WalbaumLTRoman; font-style: italic; font-size: 13px; font-weight: bold; color: #434343; margin-bottom: 10px;}
+.wrap_right .section .content_2x .text img {margin-bottom: 10px;}
+.wrap_right .section .content_2x .text h4 {font-size: 15px; font-weight: 700;}
+.wrap_right .section .content_2x .text p {font-size: 12px; margin-top: 8px; margin-bottom: 15px;}
+.wrap_right .section .content_2x .text h5 {background-color: #000; color: #fff; display: inline; font-size: 15px; padding: 5px 15px; cursor: pointer;}
+.wrap_right .section .content_2x .text h5:hover {background: #fff; color: #474747; border: 2px solid;}
+.wrap_right .section .content_2x .more {position: absolute; right: 0; background-color: #000; width: 30px; cursor: pointer;}
+
+
+
+.wrap_right .last {border-bottom: 1px solid #737373;}
 
 
 
 
 
 
+/* sub03 */
+
+
+
+/* page */
 .wrap .page {text-align: center; overflow: hidden; margin-top: 30px; margin-bottom: 30px;}
 .wrap .page button {width: 40px; height: 40px; font-size: 12px; font-weight: 700; border: 1px solid #b4b4b4; color: #b4b4b4; line-height: 40px; margin: 0 8px; cursor: pointer;}
 .wrap .page .on {background-color: #b4b4b4; color: #fff;}
+
+.wrap_right .page {text-align: center; overflow: hidden; margin-top: 30px; margin-bottom: 30px;}
+.wrap_right .page button {width: 40px; height: 40px; font-size: 12px; font-weight: 700; border: 1px solid #b4b4b4; color: #b4b4b4; line-height: 40px; margin: 0 8px; cursor: pointer;}
+.wrap_right .page .on {background-color: #b4b4b4; color: #fff;}
+
+/* page */
+
+
+
+
+
+
+
+
+
+
 
 
 
