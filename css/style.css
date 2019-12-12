@@ -34,12 +34,18 @@
 
 /* sub03 */
 .wrap_makeup {overflow: hidden;}
-.wrap_left {width: 200px; float: left; border-top: 2px solid #737373; border-bottom: 1px solid #737373;}
+.wrap_left {width: 200px; float: left; }
+
+.wrap_left .sidebar_head {overflow: hidden; margin-bottom: 10px; padding: 0 10px;}
+.wrap_left .sidebar_head p {float: left; font-size: 15px; line-height: 15px; color: #595959; font-weight: bold; }
+.wrap_left .sidebar_head img {float: right;}
+
+.wrap_left .sidebar_menu {border-top: 2px solid #737373; border-bottom: 1px solid #737373;}
 .wrap_left .sidebar_menu li > a {display: block; height: 45px; line-height: 45px; padding-left: 10px;}
 .wrap_left .sidebar_menu > li.active > a {font-weight: bold;}
 
-.wrap_left .sidebar_menu li .sidebar_submenu {display: none;}
-.wrap_left .sidebar_menu li .sidebar_submenu li a {display: block; height: 30px; line-height: 30px; padding-left: 20px; font-size: 12px;}
+.wrap_left .sidebar_menu li .sidebar_submenu {}
+.wrap_left .sidebar_menu li .sidebar_submenu li a {display: block; height: 30px; line-height: 30px; padding-left: 30px; font-size: 12px;}
 .wrap_left .sidebar_menu li .sidebar_submenu .on {background: #000;}
 .wrap_left .sidebar_menu li .sidebar_submenu .on a {color: #e50808;}
 .wrap_left .sidebar_menu li .sidebar_submenu li:hover {background: #000;}
@@ -47,8 +53,8 @@
 
 
 .wrap_right {float: right;}
-.wrap_right .section {overflow: hidden; border-top: 1px solid #737373;}
-.wrap_right .section .content {position: relative; height: 393px; width: 239px; border-right: 1px solid #737373;}
+.wrap_right .section {overflow: hidden;}
+.wrap_right .section .content {position: relative; height: 393px; width: 239px; border-top: 1px solid #737373; border-right: 1px solid #737373;}
 .wrap_right .section .first {border-left: 1px solid #737373;} 
 .wrap_right .section div {float: left; width: 100%;}
 
@@ -62,7 +68,7 @@
 .wrap_right .section .content .text h5:hover {background: #fff; color: #474747; border: 2px solid;}
 .wrap_right .section .content .more {position: absolute; right: 0; background-color: #000; width: 30px; cursor: pointer;}
 
-.wrap_right .section .content_2x {position: relative; height: 393px; width: 479px; border-right: 1px solid #737373;}
+.wrap_right .section .content_2x {position: relative; height: 393px; width: 479px; border-top: 1px solid #737373; border-right: 1px solid #737373;}
 .wrap_right .section .content_2x .img {margin-top: 25px; text-align: center; cursor: pointer;}
 .wrap_right .section .content_2x .text {text-align: center; background-color: #e0e0e0; padding-bottom: 25px; padding-top: 15px;}
 .wrap_right .section .content_2x .text h3 {font-family: WalbaumLTRoman; font-style: italic; font-size: 13px; font-weight: bold; color: #434343; margin-bottom: 10px;}
@@ -73,16 +79,84 @@
 .wrap_right .section .content_2x .text h5:hover {background: #fff; color: #474747; border: 2px solid;}
 .wrap_right .section .content_2x .more {position: absolute; right: 0; background-color: #000; width: 30px; cursor: pointer;}
 
-
-
 .wrap_right .last {border-bottom: 1px solid #737373;}
-
-
-
-
-
-
 /* sub03 */
+
+
+/* sub04 */
+.wrap_right .section .artistry {position: relative; width: 222px; margin-left: 24px;}
+.wrap_right .section .artistry .img {cursor: pointer;}
+.wrap_right .section .artistry .text {position: relative; width: 174px; height: 200px; background-color: #f3f3f3; padding: 24px;}
+.wrap_right .section .artistry .text .redline {margin-bottom: 7px;}
+.wrap_right .section .artistry .text .redline div {width: 30px; height: 2px; background-color: #e70505; text-indent: -99999999px;}
+.wrap_right .section .artistry .text h3 {font-family: WalbaumLTRoman; font-style: italic; font-size: 18px; font-weight: bold; color: #434343; margin-bottom: 8px;}
+.wrap_right .section .artistry .text h4 {font-size: 12px; color: #434343; font-weight: bold; margin-bottom: 12px;}
+.wrap_right .section .artistry .text h5 {font-size: 11px; color: #434343; font-weight: bold; margin-bottom: 25px;}
+.wrap_right .section .artistry .text h5 .text_in {}
+.wrap_right .section .artistry .text .text_in h5 {margin-bottom: 10px;}
+.wrap_right .section .artistry .text .text_in p {font-size: 11px; color: #434343; line-height: 16px; display: inline-block; width: 174px; white-space: nowrap; overflow: hidden; 
+    text-overflow: ellipsis; white-space: normal; height: 4em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+.wrap_right .section .artistry .text .more {position: absolute; right: 24px; bottom: 24px; text-align: right;}
+.wrap_right .section .artistry .text .more button {background-color: #000; color: #fff; line-height: 20px; cursor: pointer;}
+.wrap_right .section .artistry .text .more button img {width: 20px;}
+/* sub04 */
+
+
+
+/* sub05 */
+.wrap_login {overflow: hidden; margin: 80px 80px 240px; border-top: 1px solid; border-bottom: 1px solid;}
+.wrap_login .content {float: left;}
+.wrap_login .content.left {border-right: 1px solid;}
+
+.wrap_login .content .top {width: 379px; padding: 45px 70px;}
+.wrap_login .content .top h3 {font-size: 17px; font-weight: bold; margin-bottom: 15px;}
+.wrap_login .content .top p {font-size: 10px; margin-bottom: 30px;}
+.wrap_login .content .top .login {overflow: hidden;}
+.wrap_login .content .top .login .left {float: left;}
+.wrap_login .content .top .login .left div {margin-bottom: 7px;}
+.wrap_login .content .top .login .left div h5 {float: left; font-size: 11px; line-height: 36px; width: 55px; color: #474747;}
+.wrap_login .content .top .login .left div input {width: 177px; height: 32px; border: 1px solid; padding-left: 15px;}
+
+.wrap_login .content .top .login .right {float: right;}
+.wrap_login .content .top .login .right button {background-color: #000; color: #fff; padding: 27px 30px; border: 1px solid #000; font-size: 20px; cursor: pointer;}
+.wrap_login .content .top .login .right button:hover,
+.wrap_login .content .top .login .right button:active {background-color: #fff; border: 1px solid; color: #000;} 
+.wrap_login .content .top .check {font-size: 11px; color: #474747; margin-left: 52px;}
+
+.wrap_login .content .bottom {width: 379px; padding: 45px 70px; border-top: 1px dotted;}
+.wrap_login .content .bottom p {font-size: 10px; line-height: 20px; margin-left: 52px;}
+.wrap_login .content .bottom div {margin-top: 20px; margin-left: 52px;}
+.wrap_login .content .bottom div button {border: 1px solid #000; padding: 3px 13px; cursor: pointer;}
+.wrap_login .content .bottom div button:hover,
+.wrap_login .content .bottom div button:active {background-color: #000; color: #fff;}
+
+
+
+
+.wrap_login .content .top h3 {font-size: 17px; font-weight: bold; margin-bottom: 15px;}
+.wrap_login .content .top p {font-size: 10px; margin-bottom: 30px;}
+.wrap_login .content .top .tel {overflow: hidden; margin-bottom: 55px;}
+.wrap_login .content .top .tel h5 {float: left; font-size: 11px; line-height: 36px; width: 55px; color: #474747;}
+.wrap_login .content .top .tel select {float: left; border: 1px solid; border-radius: 0; height: 30px;}
+.wrap_login .content .top .tel p {float: left; line-height: 30px; margin: 0 5px; font-size: 15px;}
+.wrap_login .content .top .tel input {float: left; width: 46px; height: 25px; padding-left: 10px; border: 1px solid #000;}
+
+
+.wrap_login .content .top .join {margin-left: 52px;}
+.wrap_login .content .top .join p {}
+.wrap_login .content .top .join button {background-color: #686868; color: #fff; border: 1px solid #686868; font-size: 15px; width: 150px; height: 46px;}
+.wrap_login .content .top .join button:hover,
+.wrap_login .content .top .join button:active {background-color: #fff; color: #000; border: 1px solid #686868;}
+
+/* sub05 */
+
+
+
+
+
+
+
+
 
 
 

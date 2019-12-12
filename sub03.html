@@ -51,8 +51,12 @@
 
     <div class="wrap_makeup">
         <div class="wrap_left">
+            <div class="sidebar_head">
+                <p>메이크업</p>
+                <img src="./images/contents/icon_down.png" alt="">
+            </div>
             <ul class="sidebar_menu">
-                <li class="eye">
+                <li class="open active">
                     <a href="#">아이</a>
                     <ul class="sidebar_submenu">
                         <li class="on">
@@ -318,16 +322,16 @@
         $(document).ready(function() {
             
             
-            $(".eye").off("click").on("click", function() {
-                if ($(".eye").hasClass("active")) { 
-                    $(".eye").removeClass("active");
+            $(".open").off("click").on("click", function() {
+                if ($(".open").hasClass("active")) { 
+                    $(".open").removeClass("active");
                 }
                 else {
-                    $(".eye").addClass("active");
+                    $(".open").addClass("active");
                 }
             });
 
-            $('.eye').click(function(){ 
+            $('.open').click(function(){ 
                 var state = $('.sidebar_submenu').css('display'); 
                 if(state == 'none'){ 
                     $('.sidebar_submenu').slideDown(1000); 
