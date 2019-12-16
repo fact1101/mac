@@ -58,21 +58,7 @@
 .container .box .text01{margin-top:12px;}
 
 
-
-
-
 .container .con_head02{background:url(../images/main/main_bg02.gif) center top; height:6px; margin-bottom:38px;}
-
-
-.container .box01{position:relative; height:253px; margin-bottom:42px;}
-.container .box01 > li{float:left; padding-left:78px;}
-.container .box01 .end{padding-left:0; margin-left:30px;}
-.container .box01 .img01{background:url(../images/main/main_img06.png) no-repeat left top; z-index:10;}
-.container .box01 .img02{background:url(../images/main/main_img08.png) no-repeat right top; z-index:10;}
-
-.container .box02{position:relative; height:253px;}
-.container .box02 > li{float:left; padding-left:78px;}
-.container .box02 .end{padding-left:0; margin-left:30px;}
 
 
 /* footer */
