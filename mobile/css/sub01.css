@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sub_container{width:1200px; margin:0 auto;	}
+.sub_container .bg_img{background:url(../images/sub01/sub_bgimg.jpg) no-repeat right top; height:12px; padding-bottom:42px; cursor: auto;}
+
+.sub_container .location{text-align:right; font-size:0; padding-bottom:11px;}
+.sub_container .location li{display:inline-block; font-size:12px; background:url(../images/sub01/sub_next.jpg) no-repeat left top 1px; padding-left:12px; margin-left:8px;}
+.sub_container .location li.first {background: none;}
+.sub_container .sub_header{background:url(../images/sub01/sub_header.jpg) no-repeat left top; height:97px; margin-bottom:47px;}
+
+
+
+
+
+
+
+/*
+.sub_container .box{background:url(../images/sub01/sub_box.jpg) no-repeat left top; height:1500px; padding-bottom:30px; position:relative;	}
+.sub_container .box > ul{position:absolute;}
+
+    
+.sub_container .box .box01 > li{float:left;}
+.sub_container .box .box01 .in01{padding:48px 0 0 318px;}
+.sub_container .box .box01 .in02{padding:48px 0 0 130px;}
+.sub_container .box .box01 .in03{padding:49px 0 0 120px;}
+.sub_container .box .box01 .in04{padding:50px 0 0 153px;}
+
+.sub_container .box .box02{top:377px;}
+.sub_container .box .box02 > li{float:left;}
+.sub_container .box .box02 .in05{padding:75px 0 0 295px;}
+.sub_container .box .box02 .in06{padding:35px 0 0 136px;}
+.sub_container .box .box02 .in07{padding:75px 0 0 126px;}
+.sub_container .box .box02 .in08{padding:50px 0 0 127px;}
+
+
+.sub_container .box .box03{top:751px;	}
+.sub_container .box .box03 > li{float:left;	}
+.sub_container .box .box03 .in09{padding:46px 0 0 320px;}
+.sub_container .box .box03 .in10{padding:75px 0 0 138px;}
+.sub_container .box .box03 .in11{padding:30px 0 0 134px;}
+.sub_container .box .box03 .in12{padding:68px 0 0 166px;}
+
+.sub_container .box .box04{top:1125px;	}
+.sub_container .box .box04 > li{float:left;	}
+.sub_container .box .box04 .in13{padding:30px 0 0 320px;}
+.sub_container .box .box04 .in14{padding:30px 0 0 156px;}
+.sub_container .box .box04 .in15{padding:30px 0 0 156px;}
+.sub_container .box .box04 .in16{padding:30px 0 0 159px;}
+
+
+
+.sub_container .page{position:relative;padding-bottom:68px;}
+.sub_container .page li{float:left;margin-left:16px;}
+.sub_container .page .end{margin-left:0;padding-left:525px;}
+
+
+*/
+
+
+
+
